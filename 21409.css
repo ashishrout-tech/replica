@@ -1,0 +1,203 @@
+body{
+    background-color: #c0f0ff;
+    border: 1em solid black;
+    border-radius: 1em;
+}
+.nav{
+    background-color: white;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    padding: 0.5em;
+    padding-top: 1.5em;
+    grid-template-rows: 2em;
+    font-family: sans-serif;
+    font-weight: 700;
+    box-shadow: grey 2px 2px 10px;
+}
+.c1{
+    text-indent: 1.5em;
+}
+.im1{
+    width: 1.8em;
+    height: 1.5em;
+}
+.c2{
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    font-size: medium;
+}
+.whole{
+    display: flex;
+    font-family: sans-serif;
+}
+.left{
+    margin-top: 1em;
+    margin-left: 1.5em;
+    font-size: 20px;
+}
+#middle1{
+    background-color: white;
+    border: 2px solid white;
+    height: 5em;
+    padding-left: 1em;
+    border-radius: 0em 0em 0.5em ;
+    color: rgba(0, 0, 0, 0.6);
+}
+#middle1{
+    overflow: scroll;
+}
+#presenter{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 0.5em 0.5em 0em 0em;
+    height: 0.7em;
+    padding-bottom: 1.5em;
+    padding-left: 1em;
+}
+#bottom1{
+    background-color: white;
+    border: 2px solid white;
+    height: 17em;
+    padding-left: 1em;
+    border-radius: 0em 0em 0.5em ;
+    color: rgba(0, 0, 0, 0.6);
+}
+#bottom1{
+    overflow: scroll;
+}
+#attendees{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 0.5em 0.5em 0em 0em;
+    height: 0.7em;
+    padding-bottom: 1.5em;
+    padding-left: 1em;
+}
+.center{
+    border: solid white 2px;
+    border-radius: 0.5em;
+    background-color: white;
+    margin-top: 2em;
+    margin-left: 0.6em;
+    font-size: 20px;
+    width: 47em;
+    height: 40em;
+}
+#image{
+    padding-left: 7em;
+    padding-right: 5em
+}
+#name{
+    text-indent: 1em;
+    padding-bottom: 10em;
+}
+.right{
+    height: 50em;
+    margin-top: 2.5em;
+    margin-left: 0.6em;
+    width: 25em;
+    display: grid;
+    grid-row-gap: 1em;
+    grid-auto-rows: 14em;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.right_block{
+    background-color: rgb(201, 193, 193);
+    border-radius: 0.5em;
+    border-left: solid white 0.4em;
+    border-right: solid white 0.4em;
+    border-top: solid white 0.2em;
+    border-bottom: solid white 0.2em;
+    text-align: center;
+    line-height: 3em;
+    font-size: 2.5em;
+}
+#ac{
+    background-color: white;
+    /* clip-path: circle(50% at 50% 50%); */
+    border: #aaffd6 7px;
+    border-style: double;
+    border-radius: 50%;
+    width: 3em;
+    position: relative; left: 2.8em;
+    float: left;
+    transition: background-color 0.4s;
+}
+#ac:hover{
+    background-color: salmon;
+}
+#mic{
+    position:relative; left: -5.6em; top: 3em;
+}
+.end{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 0.5em;
+    height: 10em;
+    background-color: white;
+    margin: 1em;
+}
+.icons{
+    padding-top: 1em;
+    padding-left: 1em;
+}
+#e_icon{
+    border: solid rgb(165, 160, 160) 1px;
+    border-radius: 0.5em;
+    display: flex;
+    background-color: rgb(165, 160, 160);
+    margin: 0.7em;
+    padding: 1em;
+    width: 3.4em;
+    height: 1.5em;
+    float: left;
+    justify-content: center;
+    align-content: center;
+    transition: background-color 0.4s;
+}
+.end_icon{
+    width: 1.6em;
+    height: 1.6em;
+}
+#e_icon:hover{
+    background-color: #aaffd6;
+}
+.aps{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1.2em;
+    margin-left: 5em;
+    font-family: sans-serif;
+}
+#ppp{
+    position: relative; top:-1em;
+    color: rgba(0, 0, 0, 0.45);
+}
+.leave{
+    border: red 1px solid;
+    border-radius: 0.5em;
+    display: flex;
+    font-size: 2em;
+    color: white;
+    font-family: sans-serif;
+    justify-content: center;
+    background-color: red;
+    width: 7em;
+    height: 1em;
+    margin-top: 1em;
+    margin-left: 10em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    transition: width 0.8s, height 0.8s;
+}
+#ll_leave{
+    height: 1em;
+    width: 1.5em;
+}
+.leave:hover{
+    width: 8em;
+    height: 1.5em;
+}
